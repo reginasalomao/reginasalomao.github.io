@@ -117,3 +117,9 @@ h3 {
   background-color: #7f2c40 !important;
   border-color: #7f2c40 !important;
 }
+
+#informacoes-lojistas a[aria-expanded='true'] {
+  color: #fff;
+  background-color: #7f2c40 !important;
+  border-color: #7f2c40 !important;
+}
