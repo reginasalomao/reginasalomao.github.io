@@ -24,11 +24,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:700,900" rel="stylesheet">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
 
 	<!-- Custom stlylesheet -->
-	<link type="text/css" rel="stylesheet" href="css/style.css" />
-	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="/css/style.css" />
+	<link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,31 +36,63 @@
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
+
+	<!-- Facebook Pixel Code -->
+	<script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t,s)}(window,document,'script',
+	'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '347320235634806'); 
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		<img height="1" width="1" 
+	src="https://www.facebook.com/tr?id=347320235634806&ev=PageView
+	&noscript=1"/>
+	</noscript>
+	<!-- End Facebook Pixel Code -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65233151-2"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-65233151-2');
+	</script>
+
+	<!--Start of Zendesk Chat Script-->
+	<script type="text/javascript">
+	window.$zopim||(function(d,s){var z=$zopim=function(c){
+	z._.push(c)},$=z.s=
+	d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+	_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+	$.src='https://v2.zopim.com/?4RIK9P3JDRsEtcJaozL9ZdwnPGriBwn7';z.t=+new Date;$.
+	type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+	</script>
+	<!--End of Zendesk Chat Script-->
 </head>
 
-<body>
-	<div id="notfound">
-		<div class="notfound">
-			<div class="notfound-404" style="text-align: center;">
-				<img src="img/logo-regina-salomao.png" />
-			</div>
-			<h2 style="text-align: center; margin-bottom: 35px;">Comunicado Importante</h2>
-			<p>
-				Sabemos como o comércio local é importante para a economia das suas cidades e como representa uma
-				parcela significativa na indústria da moda. Neste momento delicado e cheio de incertezas, nossa loja
-				online estará fora do ar por 30 dias para incentivar a venda direta com os nossos lojistas espalhados
-				por todo o Brasil.
-			</p>
-			<p>
-				O momento pede para ressignificarmos a beleza e continuarmos acreditando que, otimistas e unidos,
-				poderemos construir novos capítulos da nossa história daqui em diante. Continue seguindo nossas redes
-				sociais para mais novidades e informações. Pensar no coletivo é essencial para seguirmos em frente!
-				Vamos juntos?
-			</p>
+<body>	
+	<div class="container">
+		<div class="row">
+			<img src="/img/logo-regina-salomao.png" style="margin: 0 auto; padding: 50px 0px;" />
+		</div>
+	</div>
+	<div class="container">
+		<div class="row" style="text-align: center;">
+			<h2 style="text-align: center; margin: 0 auto 35px auto;">Comunicado Importante</h2>
+			<img src="/img/banner-desktop.jpg" class="desktop">
+			<img src="/img/banner-mobile.jpg" class="mobile" />
 			<p style="margin-bottom: 35x;">
-				Se você fez alguma compra recente ou precisa tirar qualquer dúvida, estaremos disponíveis através de
-				nossas redes sociais
-				ou pelo nosso whatsapp/email
+				Se você fez alguma compra recente no e-commerce ou precisa tirar qualquer dúvida, estaremos disponíveis através de
+				nossas redes sociais ou pelo nosso whatsapp/email
 			</p>
 		</div>
 	</div>
@@ -233,10 +265,10 @@
 				<!-- /.col-lg-9 -->
 			</div>
 		</div>
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/lojistas.js"></script>
-		<script src="js/scripts.js"></script>
+		<script src="/js/jquery.min.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/lojistas.js"></script>
+		<script src="/js/scripts.js"></script>
 </body>
 
 </html>
